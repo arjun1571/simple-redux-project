@@ -16,13 +16,13 @@ const Header = () => {
       <li><Link>About</Link></li>
       </ul>
     </div>
-    <Link className="btn btn-ghost normal-case text-xl">Simple Redux Project</Link>
+    <Link to={"/"} className="btn btn-ghost normal-case text-xl">Simple Redux Project</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><Link>Home</Link></li>
-      <li><Link>Top Rade</Link></li>
-      <li><Link>About</Link></li>
+      <li><Link to={"/home"}>Home</Link></li>
+      <li><Link to={"/top-rade"}>Top Rade</Link></li>
+      <li><Link to={"/about"}>About</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
